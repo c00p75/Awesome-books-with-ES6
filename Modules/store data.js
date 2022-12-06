@@ -3,4 +3,4 @@ export default (array, titleElement, authorElement) => {
   entryObject.title = titleElement.value;
   entryObject.author = authorElement.value;
   array.push(entryObject);
-}
+};

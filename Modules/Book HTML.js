@@ -6,4 +6,4 @@ export default (title, author, element) => {
   newBook.appendChild(newEntry);
   element.appendChild(newBook);
   return false;
-}
+};

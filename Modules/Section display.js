@@ -5,7 +5,7 @@ export const addSection = () => {
   document.getElementById('list').style.color = 'Black';
   document.getElementById('contact-btn').style.color = 'Black';
   document.getElementById('add').style.color = 'Blue';
-}
+};
 
 export const listSection = () => {
   document.getElementById('book-list').style.display = 'block';
@@ -14,7 +14,7 @@ export const listSection = () => {
   document.getElementById('list').style.color = 'Blue';
   document.getElementById('contact-btn').style.color = 'Black';
   document.getElementById('add').style.color = 'Black';
-}
+};
 
 export const contactSection = () => {
   document.getElementById('contact').style.display = 'block';
@@ -23,4 +23,4 @@ export const contactSection = () => {
   document.getElementById('list').style.color = 'Black';
   document.getElementById('contact-btn').style.color = 'Blue';
   document.getElementById('add').style.color = 'Black';
-}
+};

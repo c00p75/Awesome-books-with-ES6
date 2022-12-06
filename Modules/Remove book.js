@@ -4,4 +4,4 @@ export default (bookElement, collection, array) => {
   parent.remove();
   array.splice(parrentIndex, 1);
   localStorage.setItem('Awesome Book Collection', JSON.stringify(array));
-}
+};

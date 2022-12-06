@@ -6,7 +6,7 @@ import removeBook from './Modules/Remove book.js';
 import validation from './Modules/Validate.js';
 import clear from './Modules/Clear fields.js';
 import * as display from './Modules/Section display.js';
-import { DateTime } from "./Modules/luxon.js";
+import { DateTime } from './Modules/luxon.js';
 
 // Define essential vaiables
 const bookCollection = document.querySelector('#collection');
@@ -14,7 +14,7 @@ const addBook = document.querySelector('#add-book');
 const dateTime = document.getElementById('date-time');
 const library = [];
 
-// Call setDateTime function every second
+// Call Laxon DateTime function every second
 setInterval(() => {
   dateTime.textContent = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
 }, 1000);
