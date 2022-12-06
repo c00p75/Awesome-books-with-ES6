@@ -1,4 +1,4 @@
-export function addSection() {
+export const addSection = () => {
   document.getElementById('add-book').style.display = 'block';
   document.getElementById('book-list').style.display = 'none';
   document.getElementById('contact').style.display = 'none';
@@ -7,7 +7,7 @@ export function addSection() {
   document.getElementById('add').style.color = 'Blue';
 }
 
-export function listSection() {
+export const listSection = () => {
   document.getElementById('book-list').style.display = 'block';
   document.getElementById('add-book').style.display = 'none';
   document.getElementById('contact').style.display = 'none';
@@ -16,7 +16,7 @@ export function listSection() {
   document.getElementById('add').style.color = 'Black';
 }
 
-export function contactSection() {
+export const contactSection = () => {
   document.getElementById('contact').style.display = 'block';
   document.getElementById('book-list').style.display = 'none';
   document.getElementById('add-book').style.display = 'none';

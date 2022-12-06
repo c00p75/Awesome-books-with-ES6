@@ -1,5 +1,4 @@
 // Import JS modules
-import setDateTime from './Modules/date time.js';
 import storeEntryData from './Modules/store data.js';
 import loadBooks from './Modules/Retrieve data.js';
 import updateNewBook from './Modules/Book update.js';
@@ -7,6 +6,7 @@ import removeBook from './Modules/Remove book.js';
 import validation from './Modules/Validate.js';
 import clear from './Modules/Clear fields.js';
 import * as display from './Modules/Section display.js';
+import { DateTime } from "./Modules/luxon.js";
 
 // Define essential vaiables
 const bookCollection = document.querySelector('#collection');
@@ -15,9 +15,8 @@ const dateTime = document.getElementById('date-time');
 const library = [];
 
 // Call setDateTime function every second
-setDateTime(dateTime);
 setInterval(() => {
-  setDateTime(dateTime);
+  dateTime.textContent = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
 }, 1000);
 
 // Call loadBooks function when DOM loads

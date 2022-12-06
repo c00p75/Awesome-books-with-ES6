@@ -1,4 +1,4 @@
-export default function clear(title, author) {
+export default (title, author) => {
   title.value = '';
   author.value = '';
   return true;

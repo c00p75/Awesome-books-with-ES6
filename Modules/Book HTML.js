@@ -1,4 +1,4 @@
-export default function appendBookHTML(title, author, element) {
+export default (title, author, element) => {
   const newBook = document.createElement('div');
   newBook.setAttribute('class', 'book-list');
   const newEntry = document.createElement('div');

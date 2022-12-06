@@ -1,4 +1,4 @@
-export default function removeBook(bookElement, collection, array) {
+export default (bookElement, collection, array) => {
   const parent = bookElement.parentElement.parentElement;
   const parrentIndex = Array.from(collection.children).indexOf(parent);
   parent.remove();

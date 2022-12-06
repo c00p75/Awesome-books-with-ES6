@@ -1,4 +1,4 @@
-export default function validation(titleField, authorField) {
+export default (titleField, authorField) => {
   if (titleField.value === '' || authorField.value === '') { return false; }
   return true;
 }
