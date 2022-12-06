@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://c00p75.github.io/Awesome-Books-ES6/)
+- [Live Demo Link](https://c00p75.github.io/Awesome-books-with-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
