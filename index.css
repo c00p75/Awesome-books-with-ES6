@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  height: 87.5vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+  border: 2px solid black;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+nav .logo {
+  padding-left: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 2rem;
+  text-align: center;
+}
+
+#list {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 1rem;
+}
+
+#add,
+#contact-btn,
+#list {
+  cursor: pointer;
+}
+
+#book-list,
+#contact {
+  display: none;
+}
+
+/* form */
+form input[type='text'] {
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+form input[type='submit'] {
+  width: 30%;
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  background-color: green;
+  color: #fff;
+}
+
+#collection {
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+}
+
+.book-list div {
+  display: flex;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  position: relative;
+  justify-content: space-between;
+}
+
+#collection .book-list:nth-child(odd) {
+  background-color: gray;
+  color: #fff;
+}
+
+.remove {
+  left: 92%;
+  width: 5rem;
+  padding: 0.5rem;
+  background-color: red;
+  color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+}
+
+/* Date Time */
+.time {
+  text-align: right;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer {
+  border: 1px solid black;
+}
+
+.footer .footer-text {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+#contact p {
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+#contact p span {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#contact ul {
+  width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact ul li {
+  margin-bottom: 0.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
