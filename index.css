@@ -6,6 +6,7 @@
 
 main {
   text-align: center;
+  min-height: 500px;
   height: 87.5vh;
 }
 
@@ -152,4 +153,23 @@ form input[type='submit'] {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.1rem;
   font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  nav,
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    border: none !important;
+    margin: 0;
+  }
+
+  nav .logo {
+    padding: 0;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid black;
+  }
 }
