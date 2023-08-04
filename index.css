@@ -36,6 +36,10 @@ nav ul li {
   text-align: center;
 }
 
+nav ul li:first-child {
+  color: blue;
+}
+
 #list {
   border-left: 1px solid black;
   border-right: 1px solid black;
